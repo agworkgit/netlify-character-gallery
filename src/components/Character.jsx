@@ -3,9 +3,7 @@ import './character-gallery.css';
 function Character(props) {
     return (<div className='character-card'>
         <ul>
-            <li>
-                <h2>Name: {props.name}</h2>
-            </li>
+            <h2>Name: {props.name}</h2>
             <li>Height: {props.height}</li>
             <li>Race: {props.race}</li>
             <li>Gender: {props.gender}</li>

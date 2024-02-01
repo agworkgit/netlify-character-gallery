@@ -3,7 +3,7 @@ import './character-gallery.css';
 function Character(props) {
     return (<div className='character-card'>
         <ul>
-            <h2>Name: {props.name}</h2>
+            <h2>{props.name}</h2>
             <li>Height: {props.height}</li>
             <li>Race: {props.race}</li>
             <li>Gender: {props.gender}</li>
@@ -15,7 +15,7 @@ function Character(props) {
         </ul>
 
         <div className="img-wrapper">
-            <img src={props.imgUrl} alt={props.name} />
+            <img src={props.imgUrl} alt="" />
         </div>
     </div>);
 }

@@ -6,19 +6,33 @@ img {
 
 .img-wrapper {
     text-align: center;
-    border-bottom: 1px solid bisque;
     padding-bottom: 3rem;
 }
 
-h1, h2, p {
+h1, h2, p, ul {
     text-align: center;
     font-family: monospace;
 }
 
 h1, h2 {
     color: bisque;
+    padding-top: 3rem;
 }
 
-p:last-of-type {
-    padding-bottom: 1.5rem;
+li:last-of-type {
+    padding-bottom: 3rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.character-card {
+    margin-block: 3rem;
+    background-color: rgb(50, 44, 58);
+    border: 1px solid rgba(65, 56, 78,0.5);
+    border-radius: 1.5rem;
+    width: 100%;
 }

@@ -1,7 +1,7 @@
 import './character-gallery.css';
 
 function Character(props) {
-    return (<div>
+    return (<div className='character-card'>
         <ul>
             <li>
                 <h2>Name: {props.name}</h2>

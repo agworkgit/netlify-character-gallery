@@ -16,6 +16,7 @@ function CharacterGallery() {
                 spouse={character.spouse}
                 birth={character.birth}
                 death={character.death}
+                height={character.height}
 
                 imgUrl={character.imgUrl}
                 />  

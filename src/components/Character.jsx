@@ -1,20 +1,25 @@
 import './character-gallery.css';
 
 function Character(props) {
-    return ( <div>
-        <h2>{props.name}</h2>
-        <p>{props.height}</p>
-        <p>{props.race}</p>
-        <p>{props.gender}</p>
-        <p>{props.birth}</p>
-        <p>{props.spouse}</p>
-        <p>{props.hair}</p>
-        <p>{props.realm}</p>
-        <p>{props.death}</p>
+    return (<div>
+        <ul>
+            <li>
+                <h2>Name: {props.name}</h2>
+            </li>
+            <li>Height: {props.height}</li>
+            <li>Race: {props.race}</li>
+            <li>Gender: {props.gender}</li>
+            <li>Date of Birth: {props.birth}</li>
+            <li>Spouse: {props.spouse}</li>
+            <li>Hair: {props.hair}</li>
+            <li>Realm: {props.realm}</li>
+            <li>Date of Death: {props.death}</li>
+        </ul>
+
         <div className="img-wrapper">
-        <img src={props.imgUrl} alt="" />
+            <img src={props.imgUrl} alt={props.name} />
         </div>
-    </div> );
+    </div>);
 }
 
 export default Character;

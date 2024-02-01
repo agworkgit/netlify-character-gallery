@@ -1,0 +1,24 @@
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 1.5rem;
+  }
+
+.img-wrapper {
+    text-align: center;
+    border-bottom: 1px solid bisque;
+    padding-bottom: 3rem;
+}
+
+h1, h2, p {
+    text-align: center;
+    font-family: monospace;
+}
+
+h1, h2 {
+    color: bisque;
+}
+
+p:last-of-type {
+    padding-bottom: 1.5rem;
+}
